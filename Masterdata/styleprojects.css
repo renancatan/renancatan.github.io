@@ -61,8 +61,6 @@ Loading bars
 }
 
 
-
-
 /* 1200px / 16px = 75em */
 @media (max-width: 75em) {
   html {
@@ -132,6 +130,8 @@ img {
   display: block;
   width: 100%;
 }
+
+
 
 /* nav */
 
@@ -216,6 +216,19 @@ img {
 @media (max-width: 28.75em) {
   .video-box {
     font-size: 4rem;
+  }
+}
+
+@media (max-width: 40.75em) {
+  .video-box {
+    width: 560px;
+    height: 315px;
+  }
+}
+@media (max-height: 50.75em) {
+  .video-box {
+    width: 560px;
+    height: 315px;
   }
 }
 
